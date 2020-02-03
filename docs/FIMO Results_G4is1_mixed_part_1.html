@@ -1,0 +1,1257 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0079)http://meme-suite.org/opal-jobs/appFIMO_5.0.51569573741009-1421400431/fimo.html -->
+<html xmlns:cis="http://zlab.bu.edu/schema/cisml" xmlns:fimo="http://noble.gs.washington.edu/schema/cisml" xmlns:mem="http://noble.gs.washington.edu/meme"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<title>FIMO Results</title>
+<style type="text/css">
+td.left {text-align: left;}
+td.right {text-align: right; padding-right: 1cm;}
+</style>
+</head>
+<body color="#000000">
+<a name="top_buttons"></a>
+<hr>
+<table summary="buttons" align="left" cellspacing="0">
+<tbody><tr>
+<td bgcolor="#00FFFF"><a href="http://meme-suite.org/opal-jobs/appFIMO_5.0.51569573741009-1421400431/fimo.html#database_and_motifs"><b>Database and Motifs</b></a></td>
+<td bgcolor="#DDFFDD"><a href="http://meme-suite.org/opal-jobs/appFIMO_5.0.51569573741009-1421400431/fimo.html#sec_i"><b>High-scoring Motif Occurences</b></a></td>
+<td bgcolor="#DDDDFF"><a href="http://meme-suite.org/opal-jobs/appFIMO_5.0.51569573741009-1421400431/fimo.html#debugging_information"><b>Debugging Information</b></a></td>
+<td bgcolor="#FFDD00"><a href="http://meme-suite.org/opal-jobs/appFIMO_5.0.51569573741009-1421400431/fimo.tsv" "=""><b>Results in TSV Format</b></a></td>
+<td bgcolor="#FFDDFF"><a href="http://meme-suite.org/opal-jobs/appFIMO_5.0.51569573741009-1421400431/fimo.gff" "=""><b>Results in GFF3 Format</b></a></td>
+</tr>
+</tbody></table>
+<br>
+<br>
+<hr>
+<center><big><b>FIMO - Motif search tool</b></big></center>
+<hr>
+<p>
+FIMO version 5.0.5, (Release date: Mon Mar 18 20:12:19 2019 -0700)
+</p>
+<p>
+For further information on how to interpret these results please access <a href="http://meme-suite.org//doc/fimo-output-format.html">http://meme-suite.org//doc/fimo-output-format.html</a>.<br>
+To get a copy of the FIMO software please access <a href="http://meme-suite.org/">http://meme-suite.org</a>
+
+</p>
+<p>If you use FIMO in your research, please cite the following paper:<br>
+Charles E. Grant, Timothy L. Bailey, and William Stafford Noble,
+"FIMO: Scanning for occurrences of a given motif",
+<i>Bioinformatics</i>, <b>27</b>(7):1017-1018, 2011.
+<a href="http://bioinformatics.oxfordjournals.org/content/27/7/1017">[full text]</a></p>
+<hr>
+<center><big><b><a name="database_and_motifs">DATABASE AND MOTIFS</a></b></big></center>
+<hr>
+<div style="padding-left: 0.75in; line-height: 1em; font-family: monospace;">
+<p>
+  DATABASE hmc_liver_normal_297k_100000_1.fasta
+  <br>
+  Database contains 100000 sequences, 64975694 residues
+</p>
+<p>
+  MOTIFS motifs.meme (DNA)
+  </p><table>
+    <thead>
+      <tr>
+        <th style="border-bottom: 1px dashed;">MOTIF</th>
+        <th style="border-bottom: 1px dashed; padding-left: 1em;">WIDTH</th>
+        <th style="border-bottom: 1px dashed; padding-left: 1em;text-align:left;">
+         BEST POSSIBLE MATCH
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align:right;">1</td>
+        <td style="text-align:right;padding-left: 1em;">20</td>
+        <td style="text-align:left;padding-left: 1em;">GTGAGCCACCGCGCCCGGCC</td>
+       </tr>
+    </tbody>
+  </table>
+<p></p>
+<p>
+Random model letter frequencies (--nrdb--):
+<br>
+
+A 0.275 C 0.225 G 0.225 T 0.275 </p>
+</div>
+<hr>
+<center><big><b><a name="sec_i">SECTION I: HIGH-SCORING MOTIF OCCURENCES</a></b></big></center>
+<hr>
+<ul>
+<li>
+There were 86283 motif occurences with a p-value less than 0.0001.
+<b>Only the most significant 1000 matches are shown here.</b>
+
+The full set of motif occurences can be seen in the
+TSV (tab-delimited values) output file
+<a href="http://meme-suite.org/opal-jobs/appFIMO_5.0.51569573741009-1421400431/fimo.tsv">fimo.tsv</a>, 
+the GFF3 file 
+<a href="http://meme-suite.org/opal-jobs/appFIMO_5.0.51569573741009-1421400431/fimo.gff">fimo.gff</a> 
+which may be suitable for uploading to the 
+<a href="http://genome.ucsc.edu/cgi-bin/hgTables">UCSC Genome Table Browser</a>
+(assuming the FASTA input sequences included genomic coordinates in UCSC or Galaxy format),
+or the XML file 
+<a href="http://meme-suite.org/opal-jobs/appFIMO_5.0.51569573741009-1421400431/fimo.xml">fimo.xml</a>.
+</li>
+<li>
+The <i>p</i>-value of a motif occurrence is defined as the
+probability of a random sequence of the same length as the motif
+matching that position of the sequence with as good or better a score.
+</li>
+<li>
+The score for the match of a position in a sequence to a motif
+is computed by summing the appropriate entries from each column of
+the position-dependent scoring matrix that represents the motif.
+</li>
+<li>
+The q-value of a motif occurrence is defined as the
+false discovery rate if the occurrence is accepted as significant.
+</li>
+<li>The table is sorted by increasing <i>p</i>-value.</li>
+</ul>
+<table border="1">
+<thead>
+<tr>
+<th>Motif ID</th>
+<th>Alt ID</th>
+<th>Sequence Name</th>
+<th>Strand</th>
+<th>Start</th>
+<th>End</th>
+<th>p-value</th>
+<th>q-value</th>
+<th>Matched Sequence</th>
+</tr>
+</thead>
+<tbody>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr10:79200860-79200937</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr12:93962471-93962706</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr15:93351011-93351627</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr12:78486559-78486767</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr11:44237705-44238565</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr11:76586439-76586650</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr14:100237400-100237886</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr13:114242058-114244826</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr1:61445740-61446477</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr13:98026680-98026733</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr11:24739240-24740080</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr10:70656959-70657005</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr12:3138683-3139116</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr12:50489389-50490675</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr11:78100632-78100918</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr1:164646608-164646652</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr15:75916547-75916737</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr10:14601847-14602064</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr15:41190431-41190543</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr14:66259854-66260818</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr11:67217554-67218165</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr12:30950600-30950874</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr15:75723396-75723517</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr11:124006516-124007252</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr12:121496643-121497496</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr1:150349255-150350068</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr1:86860805-86861232</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr1:150858623-150858822</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr13:31237353-31237788</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr13:65436955-65436975</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr12:58267481-58268266</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr1:41203853-41203898</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr11:113941109-113941458</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr13:29075532-29076012</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr10:65013425-65013502</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr1:59354408-59354869</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr12:216855-216875</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr11:66450816-66452278</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr12:118597385-118597809</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr13:113979424-113979690</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr13:26910970-26911111</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr1:242353727-242353963</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr11:63906518-63907156</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr11:118797580-118797898</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr1:156183984-156184474</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr15:76523069-76523641</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr14:85765026-85765504</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr12:63017521-63018111</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr1:162243234-162243254</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr14:73458176-73458369</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr1:213263083-213263211</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr14:73853869-73854372</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr1:16221307-16221447</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr10:114366063-114366169</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr14:65444856-65445287</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr11:62421688-62422294</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr11:63772779-63775047</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr11:122565951-122566562</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr1:167823355-167823447</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr11:63433790-63434220</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr10:49649774-49651666</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr1:9968699-9969414</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr10:129004687-129005570</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr13:44650865-44650949</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr10:4013906-4014320</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr10:74430977-74431073</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr12:121477639-121477920</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr1:20498535-20500113</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr15:76604559-76606532</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr14:67396707-67396727</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr1:19240604-19241068</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr15:55610574-55610640</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr1:206236422-206237215</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr12:6514953-6515498</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr13:100407430-100408585</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr10:14277426-14278780</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr15:45471010-45472685</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr11:77915215-77916457</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr1:186350738-186350839</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr15:58849863-58850254</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr11:111926247-111926441</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr12:31965940-31965965</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr1:35899967-35902049</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr1:110046400-110047817</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr11:119175614-119175642</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr10:103575320-103575393</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr14:45437730-45437860</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr1:231040292-231041186</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr11:8407599-8407672</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr10:72530455-72531386</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr15:91174288-91174734</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr1:17799067-17799376</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr1:32307885-32308158</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr1:153607605-153608024</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr1:204102938-204103943</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr13:40891605-40892751</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr1:201683318-201684174</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr11:73553795-73553925</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr11:582803-585153</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr13:50693565-50693957</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr11:47278560-47278831</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr1:22421069-22421113</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td>
+      <td style="text-align:left;">4.76e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gtgagccaccgcgcccggcc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;"></td>
+      <td style="text-align:left;">chr1:220127327-220127743</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.08e-13</td></tr></tbody></table></body></html>
